@@ -1,0 +1,25 @@
+<head>
+  <title>Todo List</title>
+</head>
+
+<body>
+  <div class="container" ng-app="auth0" ng-controller="auth0Ctrl">
+    <header>
+      <h1>Todo List</h1>
+    </header>
+
+    <ul>
+      <li ng-repeat="task in tasks">
+        {{task.text}}
+      </li>
+    </ul>
+
+    <button ng-click="loginUserWithAuth0()">
+    login
+    </button>
+
+    <button ng-click="logout()">
+    logout
+    </button>
+  </div>
+</body>

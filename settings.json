@@ -1,0 +1,8 @@
+{
+	"auth0": {
+	    "domain": "domain.auth0.com",
+	    "clientId": "clientId",
+	    "secret":"secret",
+	    "disableSignupAction": false
+	  }
+}
